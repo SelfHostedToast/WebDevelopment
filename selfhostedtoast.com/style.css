@@ -1,0 +1,80 @@
+body{
+    margin-top: 8px;
+    background-color: #c7d5ea
+}
+
+.btn{
+    padding: 4px 4px 4px 4px;
+    border-radius: 8px;
+    border: 3px solid #6a8ec8;
+    background-color: #f2f2f2;
+    color: black;
+    font-family: "Saira Extra Condensed";
+    text-align: center;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.btn-1:hover{
+    background-color: #6a8ec8;
+}
+
+.abtme{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 8px solid #6a8ec8;
+    border-radius: 12px;
+    font-family: "Saira Extra Condensed";
+}
+.bigSHT{
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    word-wrap: break-word;
+    border: 10px solid #6a8ec8;
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255);
+    font-family: "Saira Extra Condensed";
+    font-size:2em;
+    color: black;
+    text-align: center;
+}
+
+#pfp{
+    position: relative;
+    border: solid;
+    border-radius: 24px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#p1{
+    text-align: center;
+}
+
+#p2{
+
+}
+
+#p3{
+
+}
+
+#p4{
+
+}
+
+iframe{
+    margin-right: auto;
+    margin-left: auto;
+    border: 8px solid #6a8ec8;
+    border-radius: 12px;
+    display: block;
+}
+
+#gamecreds{
+    text-align: center;
+}
