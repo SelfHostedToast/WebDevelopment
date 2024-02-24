@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Minecraft Player Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="title">
+  <h1 id="title">Minecraft Player Survey</h1>
+  </div>
+  <div class="intro">
+    <span><p id="description">Please fill out the following form.</p></span></div>
+  <div class="survey">
+  <form id="survey-form">
+    <fieldset>
+    <label for="name" id="name-label">Enter your name:
+    <input placeholder="ex. John Smith" required type="text" id="name">
+    </label>
+    <label for="email" id="email-label">Enter your email: 
+    <input placeholder="ex. minecraftdude@x.com" required type="email" id="email">
+    </input>
+  </fieldset>
+  <fieldset>
+    </label>
+    <label for="number" id="number-label">How many years have you been playing Minecraft?
+      <input placeholder="#" type="number" id="number" min="0" max="15">
+      </input>
+      </label>
+    <label for="dropdown" id="dropdown-label">Which <strong>passive mob</strong> resembles you the most?
+      <select id="dropdown" name="passive-mob">
+        <option>Select One</option>
+        <option>Cow</option>
+        <option>Sheep</option>
+        <option>Squid</option>
+        <option>Chicken</option>
+        </select>
+      </label>
+    </fieldset>
+    <fieldset>
+      <div class="tools">
+        <h3>Pick your starter gear</h3>
+        <div class="gear">
+        <input value="diamond" type="radio" checked id="diamond-gear" name="armor-type">Diamond</input><input value="netherite" type="radio" id="netherite-gear" name="armor-type">Netherite 
+        </div>
+    <label for="pickaxe">Pickaxe
+      <input type="checkbox" id="pickaxe" value="pickaxe"></input>
+      </label>
+    <label for="sword">Sword
+      <input type="checkbox" value="sword" id="sword">
+      </input>
+      </label>
+    <label for="axe">Axe<input type="checkbox" value="axe" id="axe"></input></label>
+    <label for="shovel">Shovel<input type="checkbox" value="shovel" id="shovel"></input></label>
+    </fieldset>
+    <fieldset>
+      <label class="love" for="love">In a few sentences, explain your <em>love</em> for Minecraft
+    <textarea cols="48" rows="5" id="love"></textarea>
+    </label>
+  <label for="submit" id="submit-label">
+  <input type="submit" id="submit"></input>
+  </label>
+  </form>
+  </div>
+</body>
+</html>
